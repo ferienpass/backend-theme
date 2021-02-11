@@ -1,0 +1,25 @@
+{
+  "name": "@ferienpass/backend-theme",
+  "description": "Ferienpass custom backend theme for the Contao CMS",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "node_modules/.bin/encore dev",
+    "watch": "node_modules/.bin/encore dev --watch",
+    "build": "env NODE_ENV=production node_modules/.bin/encore production"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.2.3",
+    "postcss": "^8.2.4",
+    "tailwindcss": "^2.0.2",
+    "@contao/backend": "file:../vendor/contao/contao/core-bundle/assets"
+  },
+  "peerDependencies": {
+    "autoprefixer": "^10.0.0",
+    "tailwindcss": "^2.0.0"
+  },
+  "devDependencies": {
+    "@symfony/webpack-encore": "^1.0.0",
+    "postcss-loader": "^4.0.0"
+  }
+}

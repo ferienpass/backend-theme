@@ -1,0 +1,38 @@
+{
+  "name": "ferienpass/backend-theme",
+  "license": "proprietary",
+  "description": "",
+  "type": "contao-bundle",
+  "homepage": "https://ferienpass.online/",
+  "authors": [
+    {
+      "name": "Richard Henkenjohann",
+      "email": "info@ferienpass.online",
+      "homepage": "https://ferienpass.online"
+    }
+  ],
+  "support": {
+    "email": "info@ferienpass.online"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ferienpass\\BackendThemeBundle\\": "src"
+    }
+  },
+  "require": {
+    "contao/contao": "dev-tng-backend as 4.12.0"
+  },
+  "require-dev": {
+    "contao/manager-plugin": "^2.7",
+    "friendsofphp/php-cs-fixer": "^2.12"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/richardhj/contao"
+    }
+  ],
+  "extra": {
+    "contao-manager-plugin": "Ferienpass\\BackendThemeBundle\\ContaoManager\\Plugin"
+  }
+}
