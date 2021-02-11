@@ -1,4 +1,4 @@
 services:
   Ferienpass\BackendThemeBundle\ContaoBackendTheme\BackendTheme:
     tags:
-      - { name: 'contao.backend_theme', alias: 'acmecontaocustomtheme' }
+      - { name: 'contao.backend_theme', alias: 'ferienpass' }
