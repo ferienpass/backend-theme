@@ -1,4 +1,6 @@
 @tailwind base;
 
+@import "../../vendor/contao/contao/core-bundle/assets/styles/_legacy.css";
+
 @tailwind components;
 @tailwind utilities;

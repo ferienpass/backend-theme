@@ -12,6 +12,10 @@ Encore
     .enablePostCssLoader()
 
     .addEntry('app', './js/app.js')
+
+    .configureImageRule({
+        filename: 'images/[name][ext]'
+    })
     .copyFiles({
         from: './images/',
         to: 'images/[path][name].[ext]',
