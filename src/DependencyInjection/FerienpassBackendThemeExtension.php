@@ -35,6 +35,6 @@ final class FerienpassBackendThemeExtension extends Extension implements Prepend
             return;
         }
 
-        $container->prependExtensionConfig('contao', ['backend'=>['theme'=>'ferienpass']]);
+        //$container->prependExtensionConfig('contao', ['backend' => ['theme' => 'ferienpass']]);
     }
 }
